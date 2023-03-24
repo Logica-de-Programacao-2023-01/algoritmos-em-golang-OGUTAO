@@ -1,0 +1,31 @@
+package main
+
+import "fmt"
+
+func main() {
+	var (
+		x float64
+		y float64
+		z float64
+	)
+	var (
+		p2 float64
+		p3 float64
+		p5 float64
+	)
+
+	fmt.Print("Qual o valor de X?")
+	fmt.Scan(&x)
+	fmt.Print("Qual o valor do p2?")
+	fmt.Scan(&p2)
+	fmt.Print("Qual o valor de y?")
+	fmt.Scan(&y)
+	fmt.Print("Qual o valor do p3?")
+	fmt.Scan(&p3)
+	fmt.Print("Qual o valor de z?")
+	fmt.Scan(&z)
+	fmt.Print("Qual o valor do p5?")
+	fmt.Scan(&p5)
+	soma := x*p2 + y*p3 + z*p5
+
+	fmt.Println("A soma dos três numeros é", soma)

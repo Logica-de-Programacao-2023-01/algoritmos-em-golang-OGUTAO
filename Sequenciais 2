@@ -1,0 +1,12 @@
+package main
+
+import "fmt"
+
+func main() {
+	var x int
+	fmt.Print("Qual o valor que você quer multiplicar por 2,3,4")
+	fmt.Scan(&x)
+	resultado1 := x * 2
+	resultado2 := x * 3
+	resultado3 := x * 4
+	fmt.Println("Os resultados são", resultado1, resultado2, resultado3)

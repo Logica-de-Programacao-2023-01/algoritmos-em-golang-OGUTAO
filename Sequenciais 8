@@ -1,0 +1,17 @@
+package main
+
+import "fmt"
+
+func main() {
+	var (
+		dias   int
+		diária int
+	)
+	fmt.Print("Quantos dias você trabalhou?")
+	fmt.Scan(&dias)
+	fmt.Print("Qual o valor ganho por dia trabalhado?")
+	fmt.Scan(&diária)
+	salário := diária * dias
+	fmt.Println("O salário que você receberá por", dias, "de trabalho é", salário)
+}
+
